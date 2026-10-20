@@ -1,7 +1,8 @@
 #!/bin/bash
 testing_script="/home/vboxuser/lb_1.sh"
-testing_path="/home/vboxuser/stand_sizes"
+testing_path="/home/vboxuser/stand_size"
 backup_dir="/home/vboxuser/Dackup"
+loop_im="/userdisk.fs"
 
 sudo umount "$testing_path"
 sudo mkfs.ext4 -F "$loop_im"
